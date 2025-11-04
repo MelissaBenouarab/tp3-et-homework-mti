@@ -1,90 +1,73 @@
-# 🕌 Association Management System – SOLID Project (Python)
+Ce projet met en œuvre un système de gestion pour une association de jeunes à vocation coranique, conçu selon les principes de la programmation orientée objet (POO) et en respectant les principes SOLID.
 
-## 📘 Project Overview
-This project implements a **management system for a youth Qur'anic association**, designed with **Object-Oriented Programming (OOP)** principles and following the **SOLID** guidelines.  
+Il permet de gérer :
+-Les membres (étudiants, enseignants)
+-Les événements (voyages, réunions, compétitions)
+-Les abonnements et les dons
+-La persistance des données à l’aide de classes de dépôt (repositories) et de stockage.
 
-It manages:
-- Members (students, teachers)
-- Events (trips, meetings, competitions)
-- Subscriptions and donations  
-- Data persistence through repositories and storage classes.
+Principes SOLID appliqués:
 
----
+1. Principe de responsabilité unique (SRP) :
+Définition :
+Chaque classe doit avoir une seule et unique raison de changer.
 
-## 🧩 Applied SOLID Principles
+Application :
+-Member : contient uniquement les données d’un membre (nom, email, etc.)
+-MemberRepository : gère l’enregistrement et le chargement des membres à partir du stockage
+-Subscription : gère uniquement la logique de paiement
+-EventManager (si implémentée) : gère séparément les opérations liées aux événements
 
-### 1️⃣ **Single Responsibility Principle (SRP)**
-**Definition:**  
-Each class should have one and only one reason to change.
+Problème résolu :
+Auparavant, certaines classes mélangeaient la logique métier et la gestion des fichiers (par exemple, une classe Member qui s’enregistrait elle-même).
+La séparation des responsabilités a rendu le système plus clair, plus testable et plus facile à maintenir.
 
-**Applied in:**  
-- `Member` → stores only member data (name, email, etc.).  
-- `MemberRepository` → handles saving and loading members to/from storage.  
-- `Subscription` → handles payment logic only.  
-- `EventManager` (if implemented) → manages event-related operations separately.
+2. Principe ouvert/fermé (OCP):
+Définition :
+Les classes doivent être ouvertes à l’extension mais fermées à la modification.
 
-**Problem solved:**  
-Previously, some classes mixed data and logic (e.g., a `Member` saving itself to a file).  
-By splitting responsibilities, the system became **easier to test**, **extend**, and **maintain**.
+Application :
+-Event est étendue par Trip, Meeting et Competition
+-Subscription est étendue par MonthlySubscription et AnnualSubscription
 
----
+Problème résolu :
+Au lieu de modifier les classes existantes à chaque nouveau type d’événement ou d’abonnement,
+il suffit d’ajouter de nouvelles sous-classes, évitant ainsi les duplications et les erreurs potentielles.
 
-### 2️⃣ **Open/Closed Principle (OCP)**
-**Definition:**  
-Classes should be **open for extension** but **closed for modification**.
+3. Principe de substitution de Liskov (LSP) :
+Définition :
+Les sous-classes doivent pouvoir remplacer leurs classes parentes sans altérer le comportement du programme.
 
-**Applied in:**  
-- `Event` extended by `Trip`, `Meeting`, and `Competition`.  
-- `Subscription` extended by `MonthlySubscription` and `AnnualSubscription`.  
+Application :
+-Trip, Meeting et Competition peuvent remplacer Event dans n’importe quel contexte
+-Student et Teacher peuvent remplacer Member
 
-**Problem solved:**  
-Instead of rewriting the main logic for every new event or subscription type,  
-we can **add new subclasses** without changing the existing ones — avoiding code duplication and regression.
+Problème résolu :
+Garantit le bon fonctionnement du polymorphisme — une fonction qui attend un objet Event peut recevoir une sous-classe sans problème, rendant le système souple et cohérent.
 
----
+4. Principe de ségrégation des interfaces (ISP) :
+Définition :
+Les classes ne doivent pas dépendre d’interfaces dont elles n’ont pas besoin. Les interfaces doivent être petites et spécifiques.
 
-### 3️⃣ **Liskov Substitution Principle (LSP)**
-**Definition:**  
-Subclasses should be replaceable by their parent classes without altering program behavior.
+Application :
+-Payable : implémentée par Subscription et Donation (contient uniquement process_payment())
+-Organizable : implémentée par Event et ses sous-classes (contient schedule())
+-Registrable : implémentée par Member (contient register_member())
 
-**Applied in:**  
-- `Trip`, `Meeting`, `Competition` can all replace `Event` in any context.  
-- `Student` and `Teacher` can both replace `Member`.
+Problème résolu :
+Évite la création d’une interface “géante” avec trop de méthodes.
+Chaque classe implémente uniquement les fonctionnalités nécessaires, garantissant un design léger et découplé.
 
-**Problem solved:**  
-Ensures polymorphism works correctly — functions expecting an `Event` can safely receive any subclass, making the system **flexible and robust**.
+5. Principe d’inversion des dépendances (DIP) :
+Définition :
+Les modules de haut niveau ne doivent pas dépendre des modules de bas niveau. Tous deux doivent dépendre d’abstractions.
 
----
+Application :
+-MemberRepository dépend d’une interface abstraite Storage (par exemple JSONStorage, CSVStorage)
+-Le programme principal (main.py) utilise l’injection de dépendances pour choisir le type de stockage
 
-### 4️⃣ **Interface Segregation Principle (ISP)**
-**Definition:**  
-Clients should not depend on interfaces they don’t use.  
-In other words, split large interfaces into smaller, specific ones.
-
-**Applied in:**  
-- `Payable` → implemented by `Subscription` and `Donation` (defines `process_payment()` only).  
-- `Organizable` → implemented by `Event` and its subclasses (defines `schedule()`).  
-- `Registrable` → implemented by `Member` (defines `register_member()`).
-
-**Problem solved:**  
-Avoided creating one giant “god” interface with too many methods.  
-Each class only implements what it actually needs, keeping the design **clean and decoupled**.
-
----
-
-### 5️⃣ **Dependency Inversion Principle (DIP)**
-**Definition:**  
-High-level modules should not depend on low-level modules; both should depend on abstractions.
-
-**Applied in:**  
-- `MemberRepository` depends on an abstract `Storage` interface (e.g., `JSONStorage`, `CSVStorage`).  
-- The main program (`main.py`) uses dependency injection to provide the chosen storage system.
-
-**Problem solved:**  
-Allows switching from one storage type (e.g., JSON) to another (e.g., database)  
-without changing the core application logic — making the system **scalable and adaptable**.
-
----
-
-## 🧱 Project Structure
-
+Problème résolu :
+Permet de changer facilement le système de stockage (par exemple, passer d’un fichier JSON à une base de données)
+sans modifier la logique principale du programme, rendant le système évolutif et adaptable.
+Auparavant, certaines classes mélangeaient la logique métier et la gestion des fichiers (par exemple, une classe Member qui s’enregistrait elle-même).
+La séparation des responsabilités a rendu le système plus clair, plus testable et plus facile à maintenir.
