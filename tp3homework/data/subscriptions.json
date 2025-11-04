@@ -1,0 +1,422 @@
+[
+    {
+        "student_id": 1,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 2,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 3,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 4,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 5,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 6,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 7,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 8,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 9,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 10,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 11,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 12,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 13,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 14,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 15,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 16,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 17,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 18,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 19,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 20,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 21,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 22,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 23,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 24,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 25,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 26,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 27,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 28,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 29,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 30,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 31,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 32,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 33,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 34,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 35,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 36,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 37,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 38,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 39,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 40,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 41,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 42,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 43,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 44,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 45,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 46,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 47,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 48,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 49,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 50,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 51,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 52,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 53,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 54,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 55,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 56,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 57,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    },
+    {
+        "student_id": 58,
+        "amount": 5000,
+        "date": "2025-01-10",
+        "status": "paid",
+        "period": "Mensuel"
+    },
+    {
+        "student_id": 59,
+        "amount": 12000,
+        "date": "2025-02-15",
+        "status": "paid",
+        "period": "Annuel",
+        "discount": 0.15
+    },
+    {
+        "student_id": 60,
+        "amount": 3000,
+        "date": "2025-03-10",
+        "status": "unpaid"
+    }
+]

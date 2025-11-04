@@ -1,0 +1,26 @@
+[
+    {
+        "event_name": "Umrah Trip",
+        "description": "Spiritual trip to Makkah",
+        "event_date": "2025-07-22",
+        "organizer": "Ahmed Ben Ali",
+        "participants": [],
+        "type": "Trip"
+    },
+    {
+        "event_name": "Ramadan Workshop",
+        "description": "Preparation for Ramadan charity",
+        "event_date": "2025-03-10",
+        "organizer": "Fatima Bensalem",
+        "participants": [],
+        "type": "Meeting"
+    },
+    {
+        "event_name": "Quran Recitation Contest",
+        "description": "Annual recitation competition",
+        "event_date": "2025-11-15",
+        "organizer": "Sara Khaled",
+        "participants": [],
+        "type": "Competition"
+    }
+]

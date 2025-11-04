@@ -1,0 +1,342 @@
+[
+    {
+        "full_name": "Amir Ben Ali",
+        "email": "student1@example.com",
+        "phone": "0550-100001",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 1,
+        "group": "Group 1",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Sara Bensalem",
+        "email": "student2@example.com",
+        "phone": "0550-100002",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 2,
+        "group": "Group 1",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Youssef Amrani",
+        "email": "student3@example.com",
+        "phone": "0550-100003",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 3,
+        "group": "Group 1",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Leila Khaled",
+        "email": "student4@example.com",
+        "phone": "0550-100004",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 4,
+        "group": "Group 1",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Omar Mansouri",
+        "email": "student5@example.com",
+        "phone": "0550-100005",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 5,
+        "group": "Group 1",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Meryem Bouaziz",
+        "email": "student6@example.com",
+        "phone": "0550-100006",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 6,
+        "group": "Group 2",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Ali Ben Ali",
+        "email": "student7@example.com",
+        "phone": "0550-100007",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 7,
+        "group": "Group 2",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Nadia Bensalem",
+        "email": "student8@example.com",
+        "phone": "0550-100008",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 8,
+        "group": "Group 2",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Hassan Amrani",
+        "email": "student9@example.com",
+        "phone": "0550-100009",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 9,
+        "group": "Group 2",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Fatima Khaled",
+        "email": "student10@example.com",
+        "phone": "0550-100010",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 10,
+        "group": "Group 2",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Amir Mansouri",
+        "email": "student11@example.com",
+        "phone": "0550-100011",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 11,
+        "group": "Group 3",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Sara Bouaziz",
+        "email": "student12@example.com",
+        "phone": "0550-100012",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 12,
+        "group": "Group 3",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Youssef Ben Ali",
+        "email": "student13@example.com",
+        "phone": "0550-100013",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 13,
+        "group": "Group 3",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Leila Bensalem",
+        "email": "student14@example.com",
+        "phone": "0550-100014",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 14,
+        "group": "Group 3",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Omar Amrani",
+        "email": "student15@example.com",
+        "phone": "0550-100015",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 15,
+        "group": "Group 3",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Meryem Khaled",
+        "email": "student16@example.com",
+        "phone": "0550-100016",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 16,
+        "group": "Group 4",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Ali Mansouri",
+        "email": "student17@example.com",
+        "phone": "0550-100017",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 17,
+        "group": "Group 4",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Nadia Bouaziz",
+        "email": "student18@example.com",
+        "phone": "0550-100018",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 18,
+        "group": "Group 4",
+        "subscription_status": "unpaid"
+    },
+    {
+        "full_name": "Hassan Ben Ali",
+        "email": "student19@example.com",
+        "phone": "0550-100019",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 19,
+        "group": "Group 4",
+        "subscription_status": "paid"
+    },
+    {
+        "full_name": "Fatima Bensalem",
+        "email": "student20@example.com",
+        "phone": "0550-100020",
+        "address": "Algeria",
+        "join_date": "2024-09-10",
+        "skills": [
+            "Tajwid",
+            "Recitation"
+        ],
+        "interests": [
+            "Memorization"
+        ],
+        "student_id": 20,
+        "group": "Group 4",
+        "subscription_status": "unpaid"
+    }
+]
